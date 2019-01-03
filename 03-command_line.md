@@ -20,8 +20,19 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
-
+> > Command | Description
+> > ------- | -----------
+> > pwd | show current working directoty path
+> > mkdir | creating a directoty
+> > rm -r | deleating a directory
+> > touch | creating a file
+> > rm <filename> | deleting a file
+> > mv <old file name> <new file name> | renaming a file
+> > ls - | lists all files (including hidden files)
+> > cp <filename> <new directory> | coping a file from one directory to another
+> > cd | switches you into the directory you specify
+> > sort | sorts the output
+> > grep | searches files for lines that match a pattern and returns the results
 ---
 
 ### Q2.  List Files in Unix   
@@ -35,7 +46,11 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > ls lists all files and directories in the working directory, la -a lists all contents in the working directory 
+including hidden files and directories, ls -lh displays all files and directories in long list format with readable 
+file size, ls -lah displays all files and directories in long list formatincluding hidden files with readable file 
+size, ls -t lists all files sorted by time and date, ls -Glp lists all files in long list format including 
+directories with / while excluding group names
 
 ---
 
@@ -43,7 +58,7 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > ls -l, la -a, la -lh, ls -alt, ls -g
 
 ---
 
@@ -51,7 +66,8 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > The 'xargs' command allows certain commands to accept standard inputs as arguments. For example, if you used 
+the command echo 'one two three' with the command xargs mkdir, three folders would be created. 
 
  
 
